@@ -1,0 +1,65 @@
+.Investment {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Investment img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.Investment h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Investment label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.Investment input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Investment input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.Investment input[type='number']::-webkit-inner-spin-button,
+.Investment input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Investment input[type='number']::-webkit-outer-spin-button,
+.Investment input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Investment input[type='number']::-webkit-inner-spin-button {
+    display: none;
+}
+
+.Investment input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.Investment input[type='number']::-webkit-inner-spin-button,
+.Investment input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

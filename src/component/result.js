@@ -1,3 +1,4 @@
+import './result.css';
 import { handleInvest } from './Investprocess.js';
 
 export default function Results({input}){
@@ -8,7 +9,7 @@ export default function Results({input}){
     return(
         <table>
             <thead>
-                <tr>
+                <tr id='header'>
                     <th>year</th>
                     <th>Investment Value</th>
                     <th>interest (year)</th>

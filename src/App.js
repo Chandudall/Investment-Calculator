@@ -27,7 +27,7 @@ function HandleChange(inputIdentified,newValue){
     <div className="App">
       <Calculator onChange={HandleChange} userInput={userInput} />
       {!inputIsValid && <p>Please enter a duration greater than 0</p>}
-      {inputIsValid && <Results input={userInput}/>}
+      {inputIsValid && <Results input={userInput} style={{textAlign:'center'}}/>}
      </div>
   );
 }
